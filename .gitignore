@@ -2,3 +2,4 @@
 */.vscode
 */cargo.lock
 .vscode
+*/Cargo.lock
