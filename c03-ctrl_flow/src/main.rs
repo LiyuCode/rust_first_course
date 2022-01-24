@@ -7,11 +7,11 @@ fn fib_loop(n: u8) {
         let c = a + b;
         a = b;
         b = c;
-        i += 1;
 
         println!("next val is {}", b);
 
-        if i >= n {
+        i += 1;
+        if i > n {
             break;
         }
     }
@@ -32,7 +32,7 @@ fn fib_while(n: u8) {
 fn fib_for(n: u8) {
     let (mut a, mut b) = (1, 1);
 
-    for _i in 2..n {
+    for _i in 2..n + 1 {
         let c = a + b;
         a = b;
         b = c;
