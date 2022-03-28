@@ -1,5 +1,5 @@
-*/target
-*/.vscode
-*/cargo.lock
-.vscode
-*/Cargo.lock
+**/target
+**/.vscode
+**/cargo.lock
+**/.vscode
+**/Cargo.lock
